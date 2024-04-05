@@ -10,10 +10,6 @@ export const routes: Routes = [
   },
   // Add additional route object to 'UserOnePageComponent' here
   {
-    path: 'userone',
-    component: UserOnePageComponent
-  },
-  {
     path: '',
     redirectTo: '/allusers',
     pathMatch: 'full',

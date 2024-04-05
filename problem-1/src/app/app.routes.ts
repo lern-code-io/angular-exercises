@@ -1,14 +1,14 @@
 import { Routes } from '@angular/router';
-import {ViewbookPageComponent} from "./page/viewbook-page/viewbook-page.component";
+import {TodolistPageComponent} from "./page/todolist-page/todolist-page.component";
 
 export const routes: Routes = [
   {
-    path: 'books',
-    component: ViewbookPageComponent,
+    path: 'todolist',
+    component: TodolistPageComponent,
   },
   {
     path: '',
-    redirectTo: '/books',
+    redirectTo: '/todolist',
     pathMatch: 'full',
   },
 ];

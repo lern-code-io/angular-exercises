@@ -1,14 +1,14 @@
 import { Routes } from '@angular/router';
-import {WeatherReportPageComponent} from "./page/weather-report-page/weather-report-page.component";
+import {TodoViewerPageComponent} from "./page/todo-viewer-page/todo-viewer-page.component";
 
 export const routes: Routes = [
   {
-    path: 'report',
-    component: WeatherReportPageComponent,
+    path: 'todo',
+    component: TodoViewerPageComponent,
   },
   {
     path: '',
-    redirectTo: '/report',
+    redirectTo: '/todo',
     pathMatch: 'full',
   },
 ];
