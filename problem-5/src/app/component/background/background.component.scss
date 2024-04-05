@@ -1,0 +1,18 @@
+.blue-background {
+  background-color: aqua;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-height {
+  height: 400px;
+  width: 200px;
+  border: black 2px solid;
+}
+
