@@ -17,7 +17,7 @@ import {NgForOf, UpperCasePipe} from "@angular/common";
       <div *ngFor="let todo of todoList " id="loopContainer"  class="todo-card">
             <p id="todoCapitalTitle" class="todo-title">
 <!--              todo: add uppercase pipe operator inside the string interpolation-->
-              {{todo.title }}
+              {{todo.title}}
             </p>
       </div>
 

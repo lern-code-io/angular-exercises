@@ -1,4 +1,4 @@
-import {Component, inject} from '@angular/core';
+import {Component, inject, OnInit} from '@angular/core';
 import {PostsService} from "../../service/posts.service";
 import {Post} from "../../model/posts.model";
 import {PostCardComponent} from "../post-card/post-card.component";
@@ -17,7 +17,7 @@ import {PostCardComponent} from "../post-card/post-card.component";
   `,
   styleUrl: './view-post.component.scss'
 })
-export class ViewPostComponent {
+export class ViewPostComponent implements OnInit {
   private postService: PostsService = inject(PostsService);
 
   public post: Post = {

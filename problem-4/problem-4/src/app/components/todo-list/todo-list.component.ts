@@ -25,10 +25,13 @@ import {NgForOf} from "@angular/common";
   styleUrl: './todo-list.component.scss'
 })
 export class TodoListComponent {
+
   private todoService: TodoService = inject(TodoService);
   public todoList: Todo[] = [];
 
   // Todo: add lifecycle method here
+
+
   loadTodoListInsideLifecycleHook(): void {
     this.todoService.getTodoList().subscribe(response => {
       this.todoList = response;
