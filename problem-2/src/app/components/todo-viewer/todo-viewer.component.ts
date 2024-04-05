@@ -11,8 +11,8 @@ import {Todo} from "../../modal/todo.modal";
     NgIf
   ],
   template: `
-    <div id="main-container" class="weatherReportContainer">
-      <h3>Today's Weather Report!</h3>
+    <div id="main-container" class="main-container">
+      <h3>My Todo!</h3>
       <div *ngIf="todo.completed" id="complete"  class="information-container">
         <p>This ToDo is completed!</p>
         <img priority height="125" width="125"
