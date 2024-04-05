@@ -8,7 +8,7 @@ import {FormControl, ReactiveFormsModule} from "@angular/forms";
   template:`
     <div class="main-container">
 <!--      Todo: Add a form control element on the input tag and in the code body-->
-<!--      When set up, comment out line 14 to print out the value typed.-->
+<!--      When set up, comment in line 14 to print out the value typed.-->
       <label for="name">Name: </label>
       <input id="name" type="text" >
 <!--      <p>Value: {{ name.value }}</p>-->
@@ -18,5 +18,6 @@ import {FormControl, ReactiveFormsModule} from "@angular/forms";
 })
 export class ReactiveFormComponent {
 
+  // create form control here
 
 }
