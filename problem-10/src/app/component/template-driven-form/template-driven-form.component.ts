@@ -12,7 +12,7 @@ import {NgIf} from "@angular/common";
   template:
   `
     <div class="main-container">
-      <form  class="form-container">
+      <form class="form-container">
         <div class="form-group">
           <label for="name">Name:</label>
           <input type="text" class="form-control" id="name" name="name" [(ngModel)]="formData.name" required>
