@@ -6,7 +6,7 @@ import {RouterLink} from "@angular/router";
   standalone: true,
   imports: [RouterLink],
   template: `
-      <div id="main-container " class="main-container">
+      <div class="main-container">
         <h3>Welcome to the Main users page</h3>
         <nav>
             <a src="/userone">Find User One</a>

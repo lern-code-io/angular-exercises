@@ -10,4 +10,4 @@ inside.
 - Load up the Angular application and check that the elements are loaded into the array.
 
 ## Useful Links
-- [Angular Lifecycle Hooks](https://angular.io/guide/lifecycle-hooks)
+- [Angular Lifecycle Hooks](https://angular.dev/guide/components/lifecycle#lifecycle-interfaces)

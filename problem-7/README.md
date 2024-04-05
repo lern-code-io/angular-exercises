@@ -8,4 +8,4 @@ Update the 'AllUsersComponent' component and 'UserOneComponent' by replacing the
 - Load up the Angular application and check that the routing is working
 
 ## Useful Links
-- [Angular Navigation](https://angular.io/tutorial/tour-of-heroes/toh-pt5)
+- [Angular Navigation](https://angular.dev/guide/routing/common-router-tasks#add-your-routes-to-your-application)

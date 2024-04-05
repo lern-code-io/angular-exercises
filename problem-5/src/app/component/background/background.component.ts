@@ -10,7 +10,7 @@ import {NgClass} from "@angular/common";
   template:
   `
     <div [ngClass]="'main-container'">
-        <div id="blue-background" class="container-height">
+        <div class="container-height">
 
          </div>
     </div>

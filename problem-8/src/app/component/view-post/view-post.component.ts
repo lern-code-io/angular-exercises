@@ -1,7 +1,8 @@
-import {Component, inject, OnInit} from '@angular/core';
+import {Component, DestroyRef, inject, OnInit} from '@angular/core';
 import {PostsService} from "../../service/posts.service";
 import {Post} from "../../model/posts.model";
 import {PostCardComponent} from "../post-card/post-card.component";
+import {takeUntilDestroyed} from "@angular/core/rxjs-interop";
 
 @Component({
   selector: 'app-view-post',
@@ -19,13 +20,16 @@ import {PostCardComponent} from "../post-card/post-card.component";
 })
 export class ViewPostComponent implements OnInit {
   private postService: PostsService = inject(PostsService);
+  private destroyRef: DestroyRef = inject(DestroyRef);
 
   public post: Post = {
     body: "", id: 0, title: "", userId: 0
 
   }
   ngOnInit(): void {
-    this.postService.getPostById("1").subscribe(response => {
+    this.postService.getPostById("1")
+      .pipe(takeUntilDestroyed(this.destroyRef))
+      .subscribe(response => {
       this.post = response;
     });
   }

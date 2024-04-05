@@ -11,4 +11,4 @@ The code block does not need to be edited - only the HTML should be updated.
 - Load up application and click submit - if done correctly a success message will appear
 
 ## Useful Links
-- [Template driven forms](https://angular.io/guide/forms)
+- [Template driven forms](https://angular.dev/guide/forms/template-driven-forms)

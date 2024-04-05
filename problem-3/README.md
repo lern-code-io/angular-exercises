@@ -9,5 +9,5 @@ This route object should define the path for the 'userOnePage' and specify the c
 - Load up the application and ensure the navigational routes are working.
 
 ## Useful Links
-- https://angular.io/guide/router
+- [Angular routing](https://angular.dev/guide/routing)
 

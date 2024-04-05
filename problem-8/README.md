@@ -8,4 +8,4 @@ In the 'ViewPostComponent', wrap the post content with the post-card selector to
 - Load up the application and ensure the style is applied.
 
 ## Useful Links
-- [Content projection](https://angular.io/guide/content-projection)
+- [Content projection](https://angular.dev/guide/components/content-projection#)

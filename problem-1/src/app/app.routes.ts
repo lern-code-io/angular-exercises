@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import {TodolistPageComponent} from "./page/todolist-page/todolist-page.component";
+import {TodoListPageComponent} from "./page/todolist-page/todo-list-page.component";
 
 export const routes: Routes = [
   {
     path: 'todolist',
-    component: TodolistPageComponent,
+    component: TodoListPageComponent,
   },
   {
     path: '',
