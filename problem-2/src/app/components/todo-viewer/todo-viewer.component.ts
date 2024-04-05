@@ -33,12 +33,7 @@ export class TodoViewerComponent implements OnInit {
   private todoService: TodoService = inject(TodoService);
   private destroyRef: DestroyRef = inject(DestroyRef);
 
-  public todo: Todo = {
-    completed: false,
-    id: 0,
-    title: "",
-    userId: 0
-  };
+  public todo: Todo | undefined = undefined;
 
   ngOnInit(): void {
     this.todoService.getTodo("4")
