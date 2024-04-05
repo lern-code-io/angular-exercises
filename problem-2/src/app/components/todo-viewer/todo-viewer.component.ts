@@ -13,12 +13,12 @@ import {Todo} from "../../modal/todo.modal";
   template: `
     <div id="main-container" class="main-container">
       <h3>My Todo!</h3>
-      <div *ngIf="todo.completed" id="complete"  class="information-container">
+      <div  id="complete"  class="information-container">
         <p>This ToDo is completed!</p>
         <img priority height="125" width="125"
              ngSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKNl0J6BipZCmRtWuJE_6nRGWyoBMfNVps9A&s"/>
       </div>
-      <div *ngIf="!todo.completed"  id="notComplete" class="information-container">
+      <div   id="notComplete" class="information-container">
         <p>This ToDo is incomplete!</p>
         <img priority height="125" width="125"
              ngSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRanAYVU90a2_zmg1aTSiSqQNV8LBDHLME8cg&s"/>
