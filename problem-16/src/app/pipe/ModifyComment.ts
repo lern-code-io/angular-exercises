@@ -7,9 +7,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class ModifyComment implements PipeTransform {
     transform(body: string | undefined): string | undefined {
-
-
-
+      
         return body;
     }
 }
