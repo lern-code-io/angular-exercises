@@ -1,4 +1,4 @@
-# Task 18: Create Auth Guard to protect admin page (medior 1)
+# Task 18: Create Auth Guard to protect admin page (lv 3)
 
 ## Description
 Update the 'AdminGuard' to redirect the user when the visit the URL /admin to the /denied route. Then add this guard to the /user route. 

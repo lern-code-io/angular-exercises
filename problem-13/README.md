@@ -1,4 +1,4 @@
-# Task 13: Apply the BlueBackgroundDirective to HTML template (medior 1)
+# Task 13: Apply the BlueBackgroundDirective to HTML template (lv 1)
 
 ## Description
 Update the 'TodoListComponent' with the  'BlueBackgroundDirective' so that each card in the todo for loop has a 

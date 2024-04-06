@@ -31,11 +31,7 @@ export class TodoListComponent implements OnInit {
 
   ngOnInit(): void {
     // Subscribe to HTTP call here
-    this.todoService.getTodoList()
-        .pipe(takeUntilDestroyed(this.destroyRef))
-        .subscribe(response => {
-          this.todoList = response;
-        });
+
   }
 
 

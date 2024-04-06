@@ -1,7 +1,7 @@
 # Task 12: Add style URL to component class(lv1)
 
 ## Description
-Update the BlueBackgroundComponent @Componenet tag by adding a styleUrl. The scss file is in the same folder and is called
+Update the BlueBackgroundComponent "@Componenet" tag by adding a styleUrl. The scss file is in the same folder and is called
 'blue-background.component.scss'.
 
 ## Acceptance Criteria
