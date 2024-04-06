@@ -9,7 +9,7 @@ import {BlueBackgroundDirective} from "../../directives/blue-background.directiv
   ],
   template:
   `
-    <div class="'main-container'">
+    <div class="main-container">
 <!--      apply custom directive on the div below-->
       <div class="container-height">
         <p>Apply the custom blue background directive created to my div container!</p>
