@@ -1,4 +1,4 @@
-# Task 20: Create a custom directive and apply to HTML templage (medior 1)
+# Task 20: Create a custom directive and apply to HTML template (medior 1)
 
 ## Description
 Update the 'BlueBackgroundDirective' directive to turn an element blue. Then place this directive on the div located in 

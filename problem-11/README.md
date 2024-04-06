@@ -1,7 +1,7 @@
 # Task 11: Add a on click handler to button (lv1)
 
 ## Description
-In the Message component add an 'Click' event handler to the button that will call the 'setShowMessageToTrue' function.
+In the Message component add a 'Click' event handler to the button that will call the 'setShowMessageToTrue' function.
 
 
 
