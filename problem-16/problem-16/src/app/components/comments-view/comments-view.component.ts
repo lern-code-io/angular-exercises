@@ -1,7 +1,7 @@
 import {Component, DestroyRef, inject} from '@angular/core';
 import {ModifyComment} from "../../pipe/ModifyComment";
 import {CommentsService} from "../../service/comments.service";
-import {Comment} from "../../model/comment";
+import {CommentModel} from "../../model/comment.model";
 
 @Component({
   selector: 'app-comments-view',
@@ -19,7 +19,7 @@ export class CommentsViewComponent {
   private commentService: CommentsService = inject(CommentsService);
   private destroyRef: DestroyRef = inject(DestroyRef);
 
-  public comment: Comment | undefined = undefined;
+  public comment: CommentModel | undefined = undefined;
 
   ngOnInit(): void {
     this.commentService.getCommentById("1")
