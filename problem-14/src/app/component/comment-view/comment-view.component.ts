@@ -24,7 +24,6 @@ export class CommentViewComponent {
   ngOnInit(): void {
     this.commentService.getCommentById("1")
         // unsubscribe from this observable using takeUntilDestroyed
-
         .subscribe(response => {
           this.comment = response;
         });

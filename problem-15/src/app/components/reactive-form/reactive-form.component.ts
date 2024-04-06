@@ -29,8 +29,7 @@ export class ReactiveFormComponent implements OnInit {
       name: new FormControl('',
           [
               // insert validators inside here
-            Validators.required,
-            Validators.minLength(4),
+
           ])
     })
   }

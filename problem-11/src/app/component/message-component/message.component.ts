@@ -10,7 +10,7 @@ import {NgIf} from "@angular/common";
   template:
   `
     <div class="main-container">
-      <button > Click to show message</button>
+      <button> Click to show message</button>
       <p *ngIf="showMessage"> Congratulations! It works</p>
     </div>
   `,

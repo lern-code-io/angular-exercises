@@ -15,7 +15,7 @@ import {BlueBackgroundDirective} from "../../directive/blue-background.directive
   template: `
     <div class="main-container">
       <h3>List of ToDo's!</h3>
-      <div  *ngFor="let todo of todoList" class="todo-card">
+      <div *ngFor="let todo of todoList" class="todo-card">
         <p class="todo-title">
             {{ todo.title }}
         </p>
