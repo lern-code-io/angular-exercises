@@ -9,7 +9,6 @@ import {HttpClient} from "@angular/common/http";
 export class TodoService {
 
   // This URL is a GET call and returns a list of TODO models which are defines under the Model package
-  private URL_TO_GET_TODO_LIST_FROM = "https://jsonplaceholder.typicode.com/todos"
-
+  private URL_TO_GET_TODO_LIST_FROM:string = "https://jsonplaceholder.typicode.com/todos"
 
 }
