@@ -1,4 +1,4 @@
-# Task 29: Dynamically add class depending on if mouse is hovering element(medior 1)
+# Task 29: Dynamically add class depending on if mouse is hovering element (medior 1)
 
 ## Description
 Update the BackgroundViewComponent HTML component only. Add Angular events so that when a mouse enters or leaves the inner container, a function is fired.
