@@ -11,7 +11,7 @@ import {RouterLink} from "@angular/router";
   <div class="main-container">
     <h3>Welcome to the admin panel</h3>
     <nav>
-        <a routerLink="/admin">Go to admin page</a>
+        <a [routerLink]="['/admin']" [queryParams]="{ isAdmin: 'false' }">Go to admin page</a>
      </nav>
   </div>
     `,

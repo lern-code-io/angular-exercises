@@ -4,7 +4,8 @@ import {inject} from "@angular/core";
 export const adminGuard: CanActivateFn = (route, state) => {
   const router = inject(Router);
 
-  // reroute the user here
+  // Grab the admin param and reroute user if isAdmin = 'false'
+
 
   return true;
 };
