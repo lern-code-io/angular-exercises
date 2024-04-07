@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-    name: 'ModifyComment',
+    name: 'modify-comment',
     standalone: true
 
 })

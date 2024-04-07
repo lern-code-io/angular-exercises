@@ -1,5 +1,5 @@
 import {Component, DestroyRef, inject, OnInit} from '@angular/core';
-import {ModifyComment} from "../../pipe/ModifyComment";
+import {ModifyComment} from "../../pipe/modify-comment";
 import {CommonModule} from "@angular/common";
 import {CommentsService} from "../../service/comments.service";
 import {CommentModel} from "../../model/comment.model";
