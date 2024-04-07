@@ -2,7 +2,8 @@
 
 ## Description
 Update the 'TodoService' component to call the URL placed inside - this should be done with Angular HTTP client.
-THen subscribe to the result in 'TodoListComponent' and assign the list to the variable 'todoList'.
+THen subscribe to the result in 'TodoListComponent' and assign the list to the variable 'todoList'. 
+Unsubscribe from HTTP call observable when finished.
 
 ## Acceptance Criteria
 - Add HTTP call inside 'TodoService'.
