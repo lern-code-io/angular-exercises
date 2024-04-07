@@ -11,15 +11,18 @@ import {takeUntilDestroyed} from "@angular/core/rxjs-interop";
   imports: [ReactiveFormsModule, NgIf],
   template:
     `
-      <p>Use form builder to create the form!</p>
-      <form *ngIf="nameForm" class="main-container">
-        <label for="Title" >Comment Title: </label>
-        <input id="Title" type="text">
-        <label for="Body">Comment Body: </label>
-        <input id="Body" type="text">
-        <button type="submit">Submit!</button>
-        <p *ngIf="formSubmitted">Comment Submitted</p>
-      </form>
+      <div class="main-container">
+        <p>Use form builder to create the form!</p>
+        <form class="main-container">
+          <label for="Title" >Comment Title: </label>
+          <input id="Title" type="text">
+          <label for="Body">Comment Body: </label>
+          <input id="Body" type="text">
+          <button type="submit">Submit!</button>
+          <p *ngIf="formSubmitted">Comment Submitted</p>
+        </form>
+      </div>
+
   `,
   styleUrl: './comment-view.component.scss'
 })
