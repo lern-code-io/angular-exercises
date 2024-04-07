@@ -30,10 +30,9 @@ export class CommentViewComponent {
 
   private commentService: CommentService = inject(CommentService);
   private destroyRef: DestroyRef = inject(DestroyRef);
+  private formBuilder: FormBuilder = inject(FormBuilder)
 
 
-  constructor(private formBuilder: FormBuilder) {
-  }
 
   ngOnInit(): void {
   }

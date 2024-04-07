@@ -26,10 +26,7 @@ import {NgIf} from "@angular/common";
 export class CommentViewComponent {
   formSubmitted: boolean = false;
   nameForm: FormGroup | undefined = undefined;
-
-
-  constructor(private formBuilder: FormBuilder) {
-  }
+  private formBuilder: FormBuilder = inject(FormBuilder)
 
   ngOnInit(): void {
     this.nameForm = this.formBuilder.group({

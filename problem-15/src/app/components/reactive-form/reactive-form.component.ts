@@ -34,7 +34,6 @@ export class ReactiveFormComponent implements OnInit {
   }
 
   onSubmit() {
-    console.log('called')
     if (!this.nameForm?.valid)
     {
       this.formIsInvalid = true;

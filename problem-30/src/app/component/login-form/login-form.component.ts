@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import {FormBuilder, FormGroup, ReactiveFormsModule} from "@angular/forms";
 import {NgIf} from "@angular/common";
 import {Router} from "@angular/router";
@@ -8,7 +8,7 @@ import {Router} from "@angular/router";
   standalone: true,
   imports: [
     ReactiveFormsModule,
-    NgIf
+    NgIf,
   ],
   template:
     `
@@ -27,11 +27,8 @@ export class LoginFormComponent {
 
   wrongCredentials: boolean = false;
   loginForm: FormGroup | undefined = undefined;
-
-
-  constructor(private formBuilder: FormBuilder, private router: Router) {
-  }
-
+  private formBuilder: FormBuilder = inject(FormBuilder)
+  private router: Router = inject(Router)
 
   ngOnInit(): void {
     this.loginForm = this.formBuilder.group({
