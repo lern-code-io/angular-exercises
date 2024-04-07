@@ -11,8 +11,8 @@ import {takeUntilDestroyed} from "@angular/core/rxjs-interop";
   imports: [ReactiveFormsModule, NgIf],
   template:
     `
-      <p *ngIf="!nameForm">Use form builder to create the form!</p>
-      <form  *ngIf="nameForm"  class="main-container">
+      <p>Use form builder to create the form!</p>
+      <form *ngIf="nameForm" class="main-container">
         <label for="Title" >Comment Title: </label>
         <input id="Title" type="text">
         <label for="Body">Comment Body: </label>
