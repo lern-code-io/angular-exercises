@@ -30,4 +30,6 @@ export class CommentsViewComponent implements OnInit {
           this.comment = response;
         });
   }
+
+  protected readonly PrefixComment = PrefixComment;
 }
