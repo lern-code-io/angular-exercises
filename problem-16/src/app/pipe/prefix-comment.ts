@@ -1,11 +1,11 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-    name: 'modify-comment',
+    name: 'prefix-comment',
     standalone: true
 
 })
-export class ModifyComment implements PipeTransform {
+export class PrefixComment implements PipeTransform {
     transform(body: string | undefined): string | undefined {
 
         return body;

@@ -1,5 +1,5 @@
 import {Component, DestroyRef, inject, OnInit} from '@angular/core';
-import {ModifyComment} from "../../pipe/modify-comment";
+import {PrefixComment} from "../../pipe/prefix-comment";
 import {CommonModule} from "@angular/common";
 import {CommentsService} from "../../service/comments.service";
 import {CommentModel} from "../../model/comment.model";
@@ -8,7 +8,7 @@ import {takeUntilDestroyed} from "@angular/core/rxjs-interop";
 @Component({
   selector: 'app-comments-view',
   standalone: true,
-  imports: [CommonModule, ModifyComment],
+  imports: [CommonModule, PrefixComment],
   template:
       `
         <div class="main-container" >
