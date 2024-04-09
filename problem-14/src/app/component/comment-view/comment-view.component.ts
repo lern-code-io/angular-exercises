@@ -13,7 +13,7 @@ import {Comment} from "../../model/comment";
             <p> {{ comment?.body }}</p>
         </div>
         `,
-  styleUrl: './comment-view.component.scss'
+  styleUrl: './create-comment.component.scss'
 })
 export class CommentViewComponent {
   private commentService: CommentService = inject(CommentService);

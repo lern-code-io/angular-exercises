@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import {CommentViewPageComponent} from "./page/comment-view-page/comment-view-page.component";
+import {CommentCommentPageComponent} from "./page/comment-view-page/comment-comment-page.component";
 
 export const routes: Routes = [
   {
     path: 'comment-view',
-    component: CommentViewPageComponent,
+    component: CommentCommentPageComponent,
   },
   // Add additional route object to 'UserOnePageComponent' here
   {

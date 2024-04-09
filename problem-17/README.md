@@ -1,7 +1,7 @@
 # Task 17: Convert Template driven form to Reactive form using Form builder (lv 3)
 
 ## Description
-Update the 'CommentViewComponent' by using the injected form builder service to create a form with form controls that match the existing Template 
+Update the 'CreateCommentComponent' by using the injected form builder service to create a form with form controls that match the existing Template 
 form. Then convert the HTML template form to a reactive form. Finally on submit, extract the user inputted valued from the reactive form and 
 place into the comment model object, replacing the previous values from the template driven form.
 

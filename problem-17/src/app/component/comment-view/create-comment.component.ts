@@ -32,9 +32,9 @@ import {takeUntilDestroyed} from "@angular/core/rxjs-interop";
       </div>
 
   `,
-  styleUrl: './comment-view.component.scss'
+  styleUrl: './create-comment.component.scss'
 })
-export class CommentViewComponent {
+export class CreateCommentComponent {
 
   formSubmitted: boolean = false;
   nameForm: FormGroup | undefined = undefined;
