@@ -12,8 +12,11 @@ import {NgIf} from "@angular/common";
       <label for="name">Name: </label>
       <input id="name" type="text" formControlName="name">
       <button type="submit">Submit!</button>
-      <p *ngIf="nameForm?.valid"> This form is Valid!</p>
-      <p *ngIf="nameForm?.invalid"> This form is Invalid!</p>
+      @if (nameForm?.valid) {
+      This form is Valid!
+      } @else {
+        This form is Invalid!
+      }
     </form>
   `
 })
@@ -28,7 +31,6 @@ export class ReactiveFormComponent implements OnInit {
       name: new FormControl('',
           [
               // insert validators inside here
-
           ])
     });
   }
