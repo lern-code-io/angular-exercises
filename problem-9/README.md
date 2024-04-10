@@ -6,7 +6,7 @@ Finally comment in the p tag and type into the input box. The value typed should
 
 ## Acceptance Criteria
 - A reactive form control variable is placed within the code block and linked to the input tag .
-- Comment in the p tag, load up the application, and type into the input tag. If
+- CommentModel in the p tag, load up the application, and type into the input tag. If
   done correctly, the value typed will be updated on the screen
 
 ## Useful Links
