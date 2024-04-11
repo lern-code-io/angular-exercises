@@ -12,11 +12,11 @@ import {Router} from "@angular/router";
   ],
   template:
     `
-      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" *ngIf="loginForm"  class="main-container">
-        <label for="Title" >Comment Title: </label>
-        <input id="Title" type="text" formControlName="username">
-        <label for="Body">Comment Body: </label>
-        <input id="Body" type="password" formControlName="password">
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="main-container">
+        <label >Comment Title: </label>
+        <input type="text" formControlName="username">
+        <label >Comment Body: </label>
+        <input type="password" formControlName="password">
         <button type="submit">Log In!</button>
         <p *ngIf="wrongCredentials">Invalid Credentials or form is invalid.</p>
       </form>
@@ -25,18 +25,16 @@ import {Router} from "@angular/router";
 })
 export class LoginFormComponent {
 
-  wrongCredentials: boolean = false;
-  loginForm: FormGroup | undefined = undefined;
   private formBuilder: FormBuilder = inject(FormBuilder)
   private router: Router = inject(Router)
 
-  ngOnInit(): void {
-    this.loginForm = this.formBuilder.group({
-      //TODO: Add Validators
-      username: ['',],
-      password: ['',]
-    })
-  }
+  wrongCredentials: boolean = false;
+
+  loginForm: FormGroup = this.formBuilder.nonNullable.group({
+    username: [''],
+    password: ['']
+  });
+
 
   onSubmit() {
     //TODO: Check form inputs. If correct route user to '/welcome'. Else, or if form is invalid, set wrongCredentials to True

@@ -7,7 +7,7 @@ the http call returns a singular Photo model object.
 
 ## Acceptance Criteria
 - Implement the put HTTP call in function 'updatePhoto' in service 'PhotoService'.
-- Load up the Angular application and click the update button. A message will appear if done successfully.
+- Click the update button. A message will appear if done successfully.
 
 ## Useful Links
 - [Angular Making HTTP requests](https://angular.dev/guide/http/making-requests)

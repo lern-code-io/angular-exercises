@@ -7,7 +7,7 @@ the http call returns 'null'
 
 ## Acceptance Criteria
 - Implement the delete HTTP call in function 'deletePhoto' in service 'PhotoService'.
-- Load up the Angular application and click the delete button. A message will appear if done successfully.
+- Click the delete button. A message will appear if done successfully.
 
 ## Useful Links
 - [Angular Making HTTP requests](https://angular.dev/guide/http/making-requests)

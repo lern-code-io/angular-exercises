@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import {CounterViewComponent} from "../../component/button-view/counter-view.component";
+import {CounterComponent} from "../../component/counter-view/counter.component";
 
 @Component({
   selector: 'app-counter-view-page',
   standalone: true,
-  imports: [CounterViewComponent],
+  imports: [CounterComponent],
   template: `<app-counter-view />`,
 })
 export class CounterViewPageComponent {

@@ -2,13 +2,13 @@
 
 ## Description
 
-Modify the 'ButtonService' to emit the new 'currentCount' when the increment method is called. Also return the behaviour subject as an observable in 
+Modify the 'CounterService' to emit the new 'currentCount' when the increment method is called. Also return the behaviour subject as an observable in 
 the 'getCountObservable' method.
 
 ## Acceptance Criteria
-- Emit result using the behaviour subject when incremented.
-- Return the behaviour subject as an observable in the 'getCountObservable' method
-- Load the Angular application and check the counter increments the value displayed by one.
+- In counter service, emit result using the behaviour subject when increment method called.
+- Return the behaviour subject as an observable in the 'getCountObservable' method, located in the counter service.
+- Check the counter increments the value displayed by one when button is clicked.
 
 ## Useful Links
 - [Angular Behaviour subjects](https://www.learnrxjs.io/learn-rxjs/subjects/behaviorsubject)

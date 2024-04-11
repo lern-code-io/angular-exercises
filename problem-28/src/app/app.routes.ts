@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import {TodoViewerPageComponent} from "./page/todo-viewer-page/todo-viewer-page.component";
+import {TodoViewPageComponent} from "./page/todo-viewer-page/todo-view-page.component";
 
 export const routes: Routes = [
   {
     path: 'todo',
-    component: TodoViewerPageComponent,
+    component: TodoViewPageComponent,
   },
   {
     path: '',

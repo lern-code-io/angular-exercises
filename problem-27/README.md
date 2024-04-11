@@ -1,15 +1,14 @@
-# Task 27: Apply Can deactivate guard to admin route (lv 3)
+# Task 27: Use @ViewChild to get hidden value from child component" (lv 2)
 
 ## Description
-Update the 'canDeactivateGuard' to stop navigation away from the 'AdminComponent'. The guard should call the 'getIsUserAdmin()' function
-from the service that is injected. If the result is false - prevent navigation away from '/dashboard'. Add this guard to the route '/dashboard'
-in app.routes.ts.
+Update the function 'DisplayViewComponent' with @ViewChild to gain access to the 'ChildComponent' inside
+the 'DisplayViewComponent'. Then in the 'setHiddenValue' function call the 'getHiddenValue' from
+the child component and assign the result to 'hiddenValue'
 
 ## Acceptance Criteria
-- Update the canDeactivateGuard guard to stop navigation away from page, if the 'getIsUserAdmin()' function returns false
-  from the service that is injected
-- Add the guard to /dashboard route in app.routes.ts
-- Load up the Angular application and click the navigational link. The navigation should stop working.
+- Update function 'DisplayViewComponent' with @ViewChild, viewing the 'ChildComponent'
+- Call the get hidden value function from the parent and assign to variable 'hiddenValue'
+- Click the button. The child component hidden value should be displayed.
 
 ## Useful Links
-- [Angular CanDeactivateFn](https://angular.dev/api/router/CanDeactivateFn#)
+- [Angular View Child](https://angular.dev/guide/components/queries#view-queries)

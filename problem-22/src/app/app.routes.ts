@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import {UpdatePhotoViewerPageComponent} from "./page/photo-viewer-page/update-photo-viewer-page.component";
+import {UpdatePhotoPageComponent} from "./page/photo-viewer-page/update-photo-page.component";
 
 export const routes: Routes = [
   {
     path: 'photo',
-    component: UpdatePhotoViewerPageComponent,
+    component: UpdatePhotoPageComponent,
   },
   {
     path: '',

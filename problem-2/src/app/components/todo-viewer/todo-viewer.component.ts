@@ -26,7 +26,7 @@ import {takeUntilDestroyed} from "@angular/core/rxjs-interop";
       </div>
     </div>
   `,
-  styleUrl: './todo-viewer.component.scss'
+  styleUrl: './todo-view.component.scss'
 })
 export class TodoViewerComponent implements OnInit {
 

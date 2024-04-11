@@ -13,28 +13,26 @@ import {NgIf} from "@angular/common";
   ],
   template:
     `
-      <form [formGroup]="nameForm" (ngSubmit)="onSubmit()" *ngIf="nameForm"  class="main-container">
-        <label for="Title" >Comment Title: </label>
-        <input id="Title" type="text" formControlName="title">
-        <label for="Body">Comment Body: </label>
-        <input id="Body" type="text" formControlName="body">
+      <form [formGroup]="commentForm" (ngSubmit)="onSubmit()"  class="main-container">
+        <label>Comment Title: </label>
+        <input type="text" formControlName="title">
+        <label >Comment Body: </label>
+        <input type="text" formControlName="body">
         <button type="submit">Submit!</button>
         <p *ngIf="formSubmitted">Comment Submitted, the form input fields should be reset.</p>
       </form>
-  `,  styleUrl: './create-comment-view.component.scss'
+  `,  styleUrl: './create-comment.component.scss'
 })
-export class CreateCommentViewComponent {
-  formSubmitted: boolean = false;
-  nameForm: FormGroup | undefined = undefined;
+export class CreateCommentComponent {
+
   private formBuilder: FormBuilder = inject(FormBuilder)
 
-  ngOnInit(): void {
-    this.nameForm = this.formBuilder.group({
-      title: [''],
-      body: ['']
-    })
-  }
+  formSubmitted: boolean = false;
 
+  commentForm: FormGroup = this.formBuilder.nonNullable.group({
+    title: [''],
+    body: ['']
+  });
 
   onSubmit() {
     this.formSubmitted = true;

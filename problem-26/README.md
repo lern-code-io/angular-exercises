@@ -1,13 +1,12 @@
-# Task 26: Add map operator and filter operator to only take first 3 Todo's (lv2)
+# Task 26: Add switchMap operator from RXJS to replace nested subscriptions  (lv2)
 
 ## Description
 
-Modify the 'TodoListComponent' using the map RXJS operator and the filter method within the .pipe() operator so that only the first 3 Todo's are shown.
+Modify the 'TodoListComponent', using the switchMap RXJS operator, so that the nested subscriptions in the 'onGetTodos()' method is replaced.
 
 ## Acceptance Criteria
-- Add map RXJS operator and the filter method so that only Todo's with Id 1/2/3 are displayed onto HTML template
-- Load the Angular application and check that only the first 3 Todo's are diplayed.
+- Add the switchMap RXJS operator so that the nested subscriptions are replaced
+- Check the data is still fetched with updated RXJS operator added.
 
 ## Useful Links
-- [RXJS Map operator](https://rxjs.dev/api/operators/map)
-- [JS Filter](https://www.w3schools.com/jsref/jsref_filter.asp)
+- [RXJS Switch Map operator](https://www.learnrxjs.io/learn-rxjs/operators/transformation/switchmap)

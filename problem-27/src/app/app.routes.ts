@@ -1,22 +1,14 @@
 import { Routes } from '@angular/router';
-import {DashboardPageComponent} from "./page/dashboard-page/dashboard-page.component";
-import {AdminComponent} from "./components/admin/admin.component";
-import {canDeactivateGuard} from "./guards/can-deactivate.guard";
+import {DisplayViewPageComponent} from "./page/display-view-page/display-view-page.component";
 
 export const routes: Routes = [
-  // Add can deactivate guard to this route
   {
-    path: 'dashboard',
-    component: DashboardPageComponent,
-    canDeactivate: [canDeactivateGuard]
-  },
-  {
-    path: 'admin',
-    component: AdminComponent,
+    path: 'display-view',
+    component: DisplayViewPageComponent,
   },
   {
     path: '',
-    redirectTo: '/dashboard',
+    redirectTo: '/display-view',
     pathMatch: 'full',
   },
 ];

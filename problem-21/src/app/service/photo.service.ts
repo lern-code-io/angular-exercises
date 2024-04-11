@@ -16,7 +16,7 @@ export class PhotoService {
   getPhoto(photoId: string): Observable<Photo> {
     return this.http.get<Photo>(`https://jsonplaceholder.typicode.com/photos/${photoId}`);
   }
-  deletePhoto(photoId: string): Observable<null> {
+  deletePhoto(photoId: string): Observable<Photo> {
     // todo: replace with HTTP delete call using URL on line 12
     const error = new Error('Failed to fetch data');
     return throwError(() => error);

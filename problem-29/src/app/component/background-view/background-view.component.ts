@@ -11,9 +11,10 @@ import {NgClass} from "@angular/common";
     `
     <div class="main-container">
       <!--          TODO: Add dynamic styling and mouse events on div below-->
-      <div class="container-height">
+      <div [ngClass]="{'blue-background': showBlueBackground}" class="container-height">
             <p> Link style sheet to add border and background!</p>
         </div>
+      <button (click)="onManualToggle()"> Manually toggle show blue background </button>
     </div>
   `,  styleUrl: './background-view.component.scss'
 })
@@ -30,5 +31,10 @@ export class BackgroundViewComponent {
   {
     this.showBlueBackground = false
 
+  }
+
+  onManualToggle()
+  {
+    this.showBlueBackground = !this.showBlueBackground
   }
 }

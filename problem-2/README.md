@@ -2,7 +2,7 @@
 
 ## Description
 
-Modify the 'TodoViewerComponent' HTML template to conditionally render sections of HTML based on the value of the todo 'complete' variable. 
+Modify the 'TodoViewComponent' HTML template to conditionally render sections of HTML based on the value of the todo 'complete' variable. 
 If 'complete' is true, display the div with the 'complete' text and hide the div with the 'notComplete' text. 
 If 'complete' is false, display the div with the 'notComplete' text and hide the div with the 'Complete' text.
 

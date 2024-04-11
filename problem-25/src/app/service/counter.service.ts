@@ -4,7 +4,7 @@ import {BehaviorSubject, throwError} from "rxjs";
 @Injectable({
   providedIn: 'root'
 })
-export class ButtonService {
+export class CounterService {
 
   private currentCount = 0;
 

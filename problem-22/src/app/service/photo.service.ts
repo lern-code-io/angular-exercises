@@ -19,11 +19,9 @@ export class PhotoService {
 
   updatePhoto(photoToUpdate: Photo) : Observable<Photo>
   {
-    return this.http.put<Photo>(this.UPDATE_PHOTO_URL,photoToUpdate);
     // TODO: Replace with PUT http call using URL on line 12
-
-    // const error = new Error('Failed to fetch data');
-    // return throwError(() => error);
+    const error = new Error('Failed to fetch data');
+    return throwError(() => error);
   }
 
 }

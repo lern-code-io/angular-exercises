@@ -6,7 +6,7 @@ import {NgIf} from "@angular/common";
 import {catchError, of} from "rxjs";
 
 @Component({
-  selector: 'app-todo-viewer',
+  selector: 'app-todo-view',
   standalone: true,
   imports: [
     NgIf
@@ -22,9 +22,9 @@ import {catchError, of} from "rxjs";
       <p *ngIf="error">An Error Has Occurred in the HTTP call</p>
     </div>
   `,
-  styleUrl: './todo-viewer.component.scss'
+  styleUrl: './todo-view.component.scss'
 })
-export class TodoViewerComponent {
+export class TodoViewComponent {
 
   private todoService: TodoService = inject(TodoService);
   private destroyRef: DestroyRef = inject(DestroyRef);

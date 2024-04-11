@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 <!--      todo use data binding to bind to disableButton variable-->
      <button >Disable Me</button>
     </div>`,
-  styleUrl: './counter-view.component.scss'
+  styleUrl: './button-view.component.scss'
 })
 export class ButtonViewComponent {
 
