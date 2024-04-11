@@ -31,6 +31,7 @@ export class LoginFormComponent {
   wrongCredentials: boolean = false;
 
   loginForm: FormGroup = this.formBuilder.nonNullable.group({
+    // Todo add validators so that the both fields cannot be blank and must be 4 letters
     username: [''],
     password: ['']
   });

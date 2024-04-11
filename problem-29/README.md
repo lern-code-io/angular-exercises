@@ -4,7 +4,7 @@
 Update the 'BackgroundViewComponent' HTML template so that:
 - When the mouse enters the inner div, the function 'setBlueBackgroundToTrue()' is fired
 - When the mouse leaves the inner div, the function 'setBlueBackgroundToFalse()' is fired
-Also, add a [ngClass] attribute to the inner class. The [ngClass] attribute add the class 'blue-background' if 'showBlueBackground' is set to true.
+Also, add a [ngClass] attribute to the inner class. The [ngClass] attribute should the class 'blue-background', if 'showBlueBackground' is set to true.
 
 ## Acceptance Criteria
 - Add events on mouse enter and leave to update the 'showBlueBackground' variable.

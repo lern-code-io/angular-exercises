@@ -7,9 +7,9 @@ form is invalid, then set the 'wrongCredentials' boolean to True.
 
 ## Acceptance Criteria
 - Add validators to form in 'LoginFormComponent'
-- On submit, if credentials are correct, programmatically route user to 'welcome'.
+- On submit, if credentials are correct, programmatically route user to '/welcome'.
 - On submit, if credentials are wrong, set 'wrongCredentials' variable to True. 
-- Load up Angular, enter values in the input box, and submit the form. Check correct inputs route the user to '/welcome'.
+- Enter values in the input box, and submit the form. Check correct inputs route the user to '/welcome'.
 
 ## Useful Links
 - [Angular Form Builder](https://angular.dev/guide/forms/reactive-forms#inject-the-formbuilder-service)
