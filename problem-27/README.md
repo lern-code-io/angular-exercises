@@ -1,12 +1,12 @@
 # Task 27: Use @ViewChild to get hidden value from child component" (lv 2)
 
 ## Description
-Update the function 'DisplayViewComponent' with @ViewChild to gain access to the 'ChildComponent' inside
-the 'DisplayViewComponent'. Then in the 'setHiddenValue' function call the 'getHiddenValue' from
-the child component and assign the result to 'hiddenValue'
+Update the 'DisplayViewComponent' with @ViewChild to gain access to the 'ChildComponent' from
+the 'DisplayViewComponent'. Then in the 'setHiddenValue' function located in the 'DisplayViewComponent', 
+grab the child component and call the 'getHiddenValue()' method - assign the result to 'hiddenValue'
 
 ## Acceptance Criteria
-- Update function 'DisplayViewComponent' with @ViewChild, viewing the 'ChildComponent'
+- Update component 'DisplayViewComponent' with @ViewChild, viewing the 'ChildComponent'
 - Call the get hidden value function from the parent and assign to variable 'hiddenValue'
 - Click the button. The child component hidden value should be displayed.
 
