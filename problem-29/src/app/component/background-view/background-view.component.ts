@@ -14,7 +14,7 @@ import {NgClass} from "@angular/common";
       <div class="container-height">
             <p> Link style sheet to add border and background!</p>
         </div>
-      <button (click)="onManualToggle()"> Manually toggle show blue background </button>
+      <button (click)="onManualToggle()"> Manually toggle show blue background variable </button>
     </div>
   `,  styleUrl: './background-view.component.scss'
 })
