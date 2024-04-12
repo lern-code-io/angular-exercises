@@ -11,7 +11,7 @@ import {NgClass} from "@angular/common";
     `
     <div class="main-container">
       <!--          TODO: Add dynamic styling and mouse events on div below-->
-      <div [ngClass]="{'blue-background': showBlueBackground}" class="container-height">
+      <div class="container-height">
             <p> Link style sheet to add border and background!</p>
         </div>
       <button (click)="onManualToggle()"> Manually toggle show blue background </button>
