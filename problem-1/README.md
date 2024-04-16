@@ -1,8 +1,7 @@
 # Task 1: Creating a For Loop in Angular (lv1)
 
 ## Description
-Update the TodolistComponent HTML template to loop through the array of 
-ToDo's and display each ToDo title using Angular directives. Display the title within <p> tags.
+Update the TodoListComponent HTML template to loop through the array of ToDo's and display each ToDo title using Angular directives. Display the title within <p> tags.
 
 ## Acceptance Criteria
 - Use the correct Angular directive and place it on a `div` with class `loopContainer`.
