@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import {UserOneComponent} from "../../components/user-one/user-one.component";
+import { UserOneComponent } from '../../components/user-one/user-one.component';
 
 @Component({
-  selector: 'app-user-one-page',
-  standalone: true,
-  imports: [UserOneComponent],
-  template: '<app-user-one/>',
+    selector: 'app-user-one-page',
+    standalone: true,
+    imports: [UserOneComponent],
+    template: '<app-user-one/>',
 })
-export class UserOnePageComponent {
-
-}
+export class UserOnePageComponent {}
