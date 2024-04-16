@@ -2,9 +2,7 @@
 
 ## Description
 
-Modify the 'TodoViewComponent' HTML template to conditionally render sections of HTML based on the value of the todo 'complete' variable. 
-If 'complete' is true, display the div with the 'complete' text and hide the div with the 'notComplete' text. 
-If 'complete' is false, display the div with the 'notComplete' text and hide the div with the 'Complete' text.
+Modify the 'TodoViewComponent' template, render conditionally sections of HTML based on the value of the todo 'complete' variable. 
 
 ## Acceptance Criteria
 - Use the correct Angular directive to conditionally render HTML and place it on a `div` with the 'Complete' text and place it on a `div` with the 'notComplete' text.
