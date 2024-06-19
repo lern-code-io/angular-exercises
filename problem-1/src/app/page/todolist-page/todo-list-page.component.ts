@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import {TodoListComponent} from "../../components/todolist-component/todo-list.component";
 
 @Component({
-  selector: 'app-todolist-page',
+  selector: 'app-todo-list-page',
   standalone: true,
   imports: [TodoListComponent],
-  template: `<app-todolist-component/>`,
+  template: `<app-todo-list-component/>`,
 })
 export class TodoListPageComponent {
 
